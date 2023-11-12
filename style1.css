@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container1{
+    height:700px;
+    background-image:url("images/cover.jpg");
+    background-size: cover;
+}
+
+.navbar{
+    height:100px;
+    display: flex;
+    align-items: center;
+    background-color: #f0b37c;
+    justify-content: space-around;
+}
+.logo{
+    height:80px;
+    width: 80px;
+}
+.logo-img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: #e76a4c;
+    font-size: 25px;
+    font-weight: 500;
+    transition: all 0.3s ease-in;
+}
+a:hover{
+    color: #dc143b
+}
+
+.welcome{
+    height:550px;
+    width:500px;
+    background-color: rgba(0,0, 0, 0.8);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right:15px;
+    top:115px;
+    padding: 20px 10px; /* T-B L-R*/
+    color: whitesmoke;
+}
+
+h2{
+    font-size: 50px;
+    margin-bottom: 30px;   
+}
+h1{
+    color: #dc143b;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+p{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+button{
+    height: 60px;
+    width:150px;
+    border-radius: 24px;
+    border: none;
+    background-color: #fcf8c8;
+    font-size: 20px;
+    transition: all 0.2ms ease-in;
+
+}
+button:hover{
+    background-color: #fae7ad;
+}
+
+
+
+.container2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom,rgb(125, 240, 125),rgb(242, 67, 67));
+    background-size: cover;
+}
+.menu{
+    margin-top: 20px;
+}
+.veg-menu , .nonveg-menu{
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.veg,.nonveg{
+    height: 1000px;
+    width: 800px;
+    background-color: black;
+    opacity:0.8px;
+    color: white;
+}
+
+.first{
+    margin-top: 60px;
+}
+tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+th{
+    padding-top: 20px;
+    font-size: 20px;
+    color: #fae7ad;
+    margin-bottom: 40px;
+}
+
+
+td{
+    padding-right: 60px;
+    padding-left: 60px;
+    
+}
+.veg-pizza, .nonveg-pizza{
+    height:130px;
+    width:130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+.table-th{
+    margin-left:225px;
+
+}
