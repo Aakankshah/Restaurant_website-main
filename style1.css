@@ -5,12 +5,17 @@
 }
 .container1{
     height:700px;
+    width: 100vw;
     background-image:url("images/cover.jpg");
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .navbar{
     height:100px;
+    width: 100vw;
     display: flex;
     align-items: center;
     background-color: #f0b37c;
@@ -37,16 +42,18 @@ a:hover{
 }
 
 .welcome{
+    position: relative;
     height:550px;
     width:500px;
     background-color: rgba(0,0, 0, 0.8);
     border-radius: 15px;
+    align-self: flex-end;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    right:15px;
-    top:115px;
+    margin: 20px;
+    
+    
     padding: 20px 10px; /* T-B L-R*/
     color: whitesmoke;
 }
@@ -81,6 +88,7 @@ button:hover{
 
 
 .container2{
+    width: 100vw;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -96,35 +104,40 @@ button:hover{
     font-weight: 500;
     margin-top: 70px;
     margin-bottom: 30px;
+   
 }
 
 .veg,.nonveg{
+    
     height: 1000px;
-    width: 800px;
+    max-width:100vw;
     background-color: black;
     opacity:0.8px;
     color: white;
 }
 
-.first{
-    margin-top: 60px;
-}
 tr{
+    max-width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 10px;
+
 }
+
 th{
     padding-top: 20px;
-    font-size: 20px;
+    padding-right:10px;
+    padding-left: 10px;
+    font-size: 1.3rem;
     color: #fae7ad;
     margin-bottom: 40px;
 }
 
 
 td{
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
     
 }
 .veg-pizza, .nonveg-pizza{
@@ -137,6 +150,6 @@ td{
     margin-top: 10px;
 }
 .table-th{
-    margin-left:225px;
+    margin-left:178px;
 
 }
